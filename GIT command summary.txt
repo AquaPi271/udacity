@@ -3,6 +3,7 @@ git diff <commitID_1> <commitID_2> ## this shows the difference between the two 
 - ## red '-' are deletions
 
 git log ## shows the log of a given repository along with recent commits (and commit IDs)
+git log --graph --oneline <branch1> ... <branchN> ## visualize logs as a graph across the given branches
 
 git clone ## copy a full repository
 
@@ -22,6 +23,8 @@ commit reset --hard ## removes all staged files and reverts the staged file back
 git checkout <commitID> ## checks out a particular commitID into the workspace
 git checkout master ## need to learn later about this.  Appears to return to a particular origin.
 git checkout <branchname> ## checks out the branch and switches to it
+git checkout -b <branchname>  ## runs two commands as one:  1)  git branch <branchid>, 2) git checkout <branchid>
+                              ## that is, a new branch is created, checked-out, and becomes the current branch
 
 git branch ## with no arguments, shows all the current branches.  An asterisk '*' appears next to the current branch.
 git branch <name> ## creates a new branch at the current node but does not switch to it (use checkout branch).

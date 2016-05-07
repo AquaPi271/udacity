@@ -46,3 +46,10 @@ overall purpose.  Combined with 'git checkout' the branching mechanism
 allows ease of use for code.
 
 ===================================================================
+
+"How do the diagrams help you visualize the branch structure?"
+
+Diagrams show which commits are reachable from the current branch.
+They show where branches split from a given branch.
+
+===================================================================
