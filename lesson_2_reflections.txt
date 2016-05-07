@@ -21,3 +21,17 @@ the committed files in some logical way.
 
 ===================================================================
 
+"How can you use the staging area to make sure you have one commit per logical
+change?"
+
+The staging area allows precise control over which files are added for a
+particular commit and which are excluded.  As long commits are added at logical
+breaks and files chosen properly for each commit, then the repository will
+track logical changes between commits.  Even if a file receives multiple
+updates for different logical reasons it is still possible, albeit a bit
+difficult, to store each change.  However, this requires versions of the file
+between changes is saved which defeats the purpose of GIT (you should have
+committed sooner).
+
+===================================================================
+
