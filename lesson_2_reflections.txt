@@ -1,0 +1,8 @@
+
+===================================================================
+
+"What happens when you initialize a repository? Why do you need to do it?"
+
+When a repository is initialized at .git subdirectory is added.  This directory
+contains meta information that git uses for tracking purposes.  The .git
+repository all stores different commits of each file within the repository.

@@ -1,0 +1,56 @@
+GIT commits require judgment about when to commit.  The general rule is commit for a logical change.
+
+Given scenarios in the quiz included:
+
+Making 3 commits for separate typos within a README file.  
+
+-- This is too frequent.  A review of the history would clutter understanding of the 
+-- overall changes.  No information would be missing if it were just one commit.
+
+Over the course of a week, many significant changes are made.  At the end of the week all of the changes are placed in one commit.
+
+-- This is too big of a commit.  Each significant change should be a separate commit.  This makes debugging easier and allows a user to see
+-- incremental changes in the software.
+
+After one hour a new feature is added to the software and it is committed.
+
+-- This is about right.  However, it is still possible for the commit to be too big depending whether the new feature might be construed as
+-- two or more logical breaks.
+
+=========================================================================
+
+Reflect on multiple commits:
+
+"Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?"
+
+Git allows multiple files in one commit because one logical change / update often spans multiple files.  For example, in C++, if an interface 
+changes, then a header and possibly several files that reference the interface would all change.  Committing files individually would be
+confusing to someone reviewing the code.
+
+Google Docs treats each file separately because a document is typically self-contained.  All relevant changes to a paper are contained within
+the paper.
+
+=========================================================================
+
+"How can you use the commands git log and git diff to view the history of files?"
+
+Command 'git log' shows recent changes in the repository.  It lists comments that users have placed for given changes, who made the changes,
+when they were made, and which commit ID references a particular change.
+
+Command 'git diff' allows two specific commit IDs to be compared to show where changes have been made.  With color coding, green '+' indicate
+additions, while red '-' indicates deletions.
+
+=========================================================================
+
+"How might using version control make you more confident to make changes that could break something?"
+
+Checking out different versions of a repository is quick and easy.  Therefore, if something breaks its simply a matter of returning to point
+just before the error is introduced.  At this commit point, the next ID can be compared via 'git diff' to uncover the error.  Because this
+process is easy to perform the cost of errors during experimentation plunge.
+
+=========================================================================
+
+"Now that you have your workspace set up, what do you want to try using Git for?"
+
+I plan to enroll in the Android programming course in Udacity.  I'll use my workspace along with Github to download and development code all
+while observing revision control practices.
