@@ -53,3 +53,17 @@ Diagrams show which commits are reachable from the current branch.
 They show where branches split from a given branch.
 
 ===================================================================
+
+"What is the result of merging two branches together? Why do we represent
+it in the diagram the way we do?"
+
+When two branches merge together the commits meet at one point from two
+or more paths.  A single branch is all that is needed to go down both
+paths in the commit history.  Note that a branch name is only a label
+and rests on a given node.  Removing a label name doesn't necessarily
+do anything to the data.  However, nodes can become unreachable if
+the removed label isn't a subset of another label's nodes.  This
+effectively removes those nodes from the repository (there might be a way
+to recover them, but not conveniently).
+
+===================================================================

@@ -29,6 +29,8 @@ git checkout -b <branchname>  ## runs two commands as one:  1)  git branch <bran
 git branch ## with no arguments, shows all the current branches.  An asterisk '*' appears next to the current branch.
 git branch <name> ## creates a new branch at the current node but does not switch to it (use checkout branch).
 
+git merge <branch1> ... <branchN> ## combines two branches into a single commit with <branch1> moving to the new node.
+
 To get example used in the course:
 
 git clone https://github.com/udacity/asteroids.git
