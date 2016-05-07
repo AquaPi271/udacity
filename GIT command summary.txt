@@ -1,0 +1,25 @@
+git diff <commitID_1> <commitID_2> -- this shows the difference between the two commits
++ -- green '+' are additions
+- -- red '-' are deletions
+
+git log -- shows the log of a given repository along with recent commits (and commit IDs)
+
+git clone -- copy a full repository
+
+git init -- create a new repository
+
+git status -- show files within a repository that are untracked, committed, or staged to be committed.
+
+git add -- places a file or files into the staging area
+
+
+
+
+
+To get example used in the course:
+
+git clone https://github.com/udacity/asteroids.git
+
+To setup color coding:
+
+git config --global color.ui auto

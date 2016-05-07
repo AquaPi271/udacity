@@ -6,3 +6,18 @@
 When a repository is initialized at .git subdirectory is added.  This directory
 contains meta information that git uses for tracking purposes.  The .git
 repository all stores different commits of each file within the repository.
+
+===================================================================
+
+"How is the staging area different from the working directory and the
+repository? What value do you think it offers?"
+
+The staging area holds the items from the working area that will be committed
+if a later commit command is issued.  Not all files from the working area need
+to be added to the staging area.  Because not all files need to be added the
+user is given control over which items are stored in a repository for any
+given commit.  Further it allows a message to be attached that connects to
+the committed files in some logical way.
+
+===================================================================
+
