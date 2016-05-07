@@ -35,3 +35,14 @@ committed sooner).
 
 ===================================================================
 
+"What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?"
+
+Branches allow for experimental changes while preserving the baseline code.
+If a feature might intefere with production code it is wise to keep it
+contained until it is fully tested.  At a later point in time it can be
+merged.  Giving appropriate names to branches can roughly describe the
+overall purpose.  Combined with 'git checkout' the branching mechanism
+allows ease of use for code.
+
+===================================================================
