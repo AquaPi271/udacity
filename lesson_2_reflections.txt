@@ -67,3 +67,12 @@ effectively removes those nodes from the repository (there might be a way
 to recover them, but not conveniently).
 
 ===================================================================
+
+"What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?"
+
+The automatic merging allows files with unrelated changes to merge without
+checking.  This is easier but can potentially lead to cross-contaminated bugs.
+Always doing manually merges is time consuming but less error prone.
+
+===================================================================
