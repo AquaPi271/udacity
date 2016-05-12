@@ -1,0 +1,10 @@
+================================================================
+
+When would you want to use a remote repository rather than keeping all your work local?
+
+A remote repository is useful for sharing with other people.  It also can be used if
+one user works from many different physical locations.  In this instance, Git Hub
+acts as a central repository from which a personal working copy can be replicated with
+ease.
+
+================================================================
