@@ -31,6 +31,16 @@ git branch <name> ## creates a new branch at the current node but does not switc
 
 git merge <branch1> ... <branchN> ## combines two branches into a single commit with <branch1> moving to the new node.
 
+git remote add <name> <url/path>  ## <name> is typically origin, <url/path> is the remote repository, in this case github
+                                  ## git@github.com:<path>
+				  ## This establishes the current remote repository
+git remote -v                     ## Get verbose information about the remote repository
+
+git push -u origin master       ## Update a remote refs along with associated objects
+
+git pull origin master          ## Pull master branch from the origin remote (previously established from:  git remote add origin <url>
+
+
 To get example used in the course:
 
 git clone https://github.com/udacity/asteroids.git
