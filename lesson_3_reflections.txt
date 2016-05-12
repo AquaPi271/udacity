@@ -1,10 +1,21 @@
-================================================================
+================================================================================
 
-When would you want to use a remote repository rather than keeping all your work local?
+"When would you want to use a remote repository rather than keeping all your
+work local?"
 
-A remote repository is useful for sharing with other people.  It also can be used if
-one user works from many different physical locations.  In this instance, Git Hub
-acts as a central repository from which a personal working copy can be replicated with
-ease.
+A remote repository is useful for sharing with other people.  It also can be
+used if one user works from many different physical locations.  In this
+instance, Git Hub acts as a central repository from which a personal working
+copy can be replicated with ease.
 
-================================================================
+================================================================================
+
+"Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?"
+
+Git Hub is not a back-up system (although it is backed up).  If multiple
+contributors are working on the repository there might be constant conflict
+checks.  Also, work on the local repository might be in between commits in
+which case automatically synching could throw things out of whack.
+
+================================================================================
