@@ -19,3 +19,19 @@ checks.  Also, work on the local repository might be in between commits in
 which case automatically synching could throw things out of whack.
 
 ================================================================================
+
+"Describe the differences between forks, clones, and branches. When would you
+use one instead of another?"
+
+A fork is a feature unique to GitHub.  It takes a given repository and clones it
+within GitHub.  No remote repositories are updated.  Forking also gives credit
+to the source.
+
+A clone replicates a repository from one location to another where both must
+not be GitHub (otherwise it would be a fork).
+
+A branch occurs wholly within one given repository.  It represents a new feature
+being added to the repository it is associated with but it doesn't move beyond
+a given repository's boundaries without committing and pull/push.
+
+================================================================================
